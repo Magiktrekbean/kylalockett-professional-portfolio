@@ -1,193 +1,193 @@
-
-.navbar-brand{
+.navbar-brand {
     /* Kyla Lockett */
-
-    width: 293px;
-    height: 66px;
-    font-family: 'Inter';
+  
+    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 40px!important;
+    font-size: 40px;
     line-height: 150%;
-    margin-left:40px!important;
-    
-    }
-
-
-.nav-link{/* Home */
-
-    width: 57px;
-    height: 30px;
-    font-family: 'Inter';
+    margin-left: 40px;
+  }
+  
+  .nav-link {
+    /* Home */
+  
+    font-family: "Inter";
     font-style: normal;
-    font-weight: 500!important;
-    font-size: 20px!important;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 150%;
-
-    }
-    body{max-width: fit-content;}
-h1{
+  }
+  body {
+    max-width: fit-content;
+  }
+  h1 {
     font-family: "Inter", serif;
-    font-weight: bold!important;
-    font-size: 64px!important;
-    width: 844px;
-    height: 77px;
+    font-weight: bold;
+    font-size: 64px;
+  
     font-style: normal;
-    line-height: 77px!important;
+    line-height: 77px;
     text-align: center;
     letter-spacing: -0.02em;
     display: block;
     margin: 0 auto;
-}
-h2{/* Subheading that sets up context, shares more info about the website, or generally gets people psyched to keep scrolling. */
-
-    width: 844px;
-    height: 72px;
-    
+  }
+  h2 {
+    /* Subheading that sets up context, shares more info about the website, or generally gets people psyched to keep scrolling. */
+  
     /* Subheading
-    
-    Description or small heading
-    */
-    font-family: 'Inter';
+      
+      Description or small heading
+      */
+    font-family: "Inter";
     font-style: normal;
-    font-weight: 400!important;
-    font-size: 24px!important;
-    line-height: 150%!important;
-    color: rgba(0, 0, 0, 0.75)!important;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.75);
     display: block;
     margin: 0 auto;
     text-align: start;
-    margin-bottom: 250px!important;
-    
-    }
-    .rectangle { /* rectangle 1 */
-        width: 100%;       /* Full width of the container */
-        height: auto;      /* Height will adjust based on content */
-        aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
-        max-height: 300px; /* Maximum height */
-        background-color: lightgray; /* Added for visibility, can be removed */
-    }
-    
-    .picture { /* Ellipse 1 */
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 80%; /* Responsive width */
-        height: auto; /* Height proportional to width */
-        max-width: 400px; /* Optional: limits the maximum width */
-        transform: translate(-50%, -50%);
-        border-radius: 50%; /* Makes it an ellipse if height differs */
-    }
-    
-    @media (max-width: 768px) { /* Adjust styles for smaller screens */
-        .rectangle {
-            max-height: 300px; /* Reduce the maximum height on smaller screens */
-            margin-bottom: 75px;
-        }
-    
-        .picture {
-            width: 80%; /* Adjust width for smaller screens */
-            max-width: none; /* Remove max-width to allow more flexibility */
-          
-        }
-        h1.media {max-width: 100%;
-        font-size: 48px!important;
-    text-align: center;
-
-display: block;
-margin: 0 auto;}
-        h2.media {max-width: 100%;
-        font-size: 24px;
-    text-align: center;}
-    h3.media {max-width: fit-content;
-        font-size: 24px;
-    text-align: center;
-margin-bottom: 30px!important;
-margin-top: 0!important;}
-    body{max-width: 100%;
-    height: auto;}
-    .faq{max-width: fit-content;}
-    }
-
-
-    
-h3, h5, h6, h7{margin-top:10px!important;
+    margin-bottom: 250px;
+  }
+  .rectangle {
+    /* rectangle 1 */
+    width: 100%; /* Full width of the container */
+    height: auto; /* Height will adjust based on content */
+    aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
+    max-height: 300px; /* Maximum height */
+    background-color: lightgray; /* Added for visibility, can be removed */
+  }
+  
+  .picture {
+    /* Ellipse 1 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%; /* Responsive width */
+    height: auto; /* Height proportional to width */
+    max-width: 400px; /* Optional: limits the maximum width */
+    transform: translate(-50%, -50%);
+    border-radius: 50%; /* Makes it an ellipse if height differs */
+  }
+  
+  h3,
+  h5,
+  h6,
+  h7 {
+    margin-top: 10px;
     padding-top: 30px;
   
     /* Latest Projects */
-
-
-width: 624px;
-height: 58px;
-
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600!important;
-font-size: 48px!important;
-line-height: 58px!important;
-
-letter-spacing: -0.02em;
-
-color: #000000!important;
-
-
-
-}
-h7{text-align: start;}
-.image-container{  position: relative;}
-
-.card-img-top{ width: 100%;
-    height: auto;
-}
-.consultation{ background-color:#f7f7f7;
-
-width: fit-content!important;}
-
-.button-width{  width: 100%!important;
-flex:1;
-align-items: center;
-}
-.consul-container{ width: 100%!important;}
-
-h4{/* Pricing? */
-
-    width: 515px;
-    height: 36px;
-    
-    font-family: 'Inter';
+  
+    font-family: "Inter";
     font-style: normal;
-    font-weight: 500!important;
-    font-size: 20px!important;
-    line-height: 150%!important;
-   
-    
-    color: #000000!important;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+  
+    letter-spacing: -0.02em;
+  
+    color: #000000;
+  }
+  h7 {
+    text-align: start;
+  }
+  .image-container {
+    position: relative;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  .consultation {
+    background-color: #f7f7f7;
+  
+    width: fit-content;
+  }
+  
+  .button-width {
+    width: 100%;
+    flex: 1;
+    align-items: center;
+  }
+  .consul-container {
+    width: 100%;
+  }
+  
+  h4 {
+    /* Pricing? */
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+  
+    color: #000000;
     display: block;
     margin: 0 auto;
+  }
   
-}
-
-p.faq{/* Body text for whatever you’d like to expand on the main point. */
-
-    width: 515px;
-    height: 72px;
-    
-    font-family: 'Inter';
+  p.faq {
+    /* Body text for whatever you'd like to expand on the main point. */
+  
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
-    
+  
     color: #828282;
-       display: block;
+    display: block;
     margin: 0 auto;
+  }
+  
+  .client {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .rectangle {
+      max-height: 300px; /* Reduce the maximum height on smaller screens */
+      margin-bottom: 75px;
     }
-
-
-.client{
-width: 100%;
-max-width: 400px;
-display: block;
-margin: 0 auto;
-}
+  
+    .picture {
+      width: 80%; /* Adjust width for smaller screens */
+      max-width: none; /* Remove max-width to allow more flexibility */
+    }
+    h1.media {
+      max-width: 100%;
+      font-size: 48px;
+      text-align: center;
+  
+      display: block;
+      margin: 0 auto;
+    }
+    h2.media {
+      max-width: 100%;
+      font-size: 24px;
+      text-align: center;
+    }
+    h3.media {
+      max-width: fit-content;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 0;
+    }
+    body {
+      max-width: 100%;
+      height: auto;
+    }
+    .faq {
+      max-width: fit-content;
+    }
+  }

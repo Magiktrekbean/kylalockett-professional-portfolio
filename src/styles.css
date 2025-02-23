@@ -104,6 +104,9 @@ max-width: 844px;
     width: 100%;
     height: auto;
   }
+  .latest-projects{
+    padding: 0 35px;
+  }
   .consultation {
     background-color: #f7f7f7;
   
@@ -184,7 +187,7 @@ max-width: 844px;
    display: block;
    margin: 0 auto;
      
-      padding-top: 150px;
+      padding: 150px 0 15px 0;
     }
     body {
       max-width: 100%;
@@ -195,6 +198,9 @@ max-width: 844px;
     }
   }
   @media (max-width:576px) {
-    h3{padding-top: 50px;}
+    h3{padding-top: 50px; 
+font-size: 40px;
+text-align: center;
+}
     
   }

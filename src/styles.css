@@ -154,7 +154,7 @@ max-width: 844px;
     margin: 0 auto;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     /* Adjust styles for smaller screens */
     .rectangle {
       max-height: 300px; /* Reduce the maximum height on smaller screens */
@@ -178,12 +178,13 @@ max-width: 844px;
       font-size: 24px;
       text-align: center;
     }
-    h3.media {
+    h3 {
       max-width: fit-content;
-      font-size: 24px;
-      text-align: center;
-      margin-bottom: 30px;
-      margin-top: 0;
+      font-size: 48px;
+   display: block;
+   margin: 0 auto;
+     
+      padding-top: 150px;
     }
     body {
       max-width: 100%;
@@ -192,4 +193,8 @@ max-width: 844px;
     .faq {
       max-width: fit-content;
     }
+  }
+  @media (max-width:576px) {
+    h3{padding-top: 50px;}
+    
   }

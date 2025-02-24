@@ -131,27 +131,20 @@ font-weight: 600;}
   .p-award{font-size: 20px;
 line-height: 30px;}
 
-h6{padding-left: 35px;}
-.container-r{padding: 60px 35px;
+h6{padding-bottom: 30px;}
+.container-r{padding: 30px 35px;
 
-    width: 100%;
+
 
 }
-.card-references{ flex: 1;
+.card-references{ 
 border-radius: 4px;
-padding: 20px 30px;
+padding: 20px 40px;
+margin: 10px;
 
 }
 
-  .button-width {
-    width: 100%;
-    flex: 1;
-    align-items: center;
-  }
-  .consul-container {
-    width: 100%;
-  }
-  
+
   h4 {
     /* Pricing? */
   
@@ -184,7 +177,19 @@ width:100%
  
 
   }
-  
+  .margin-consultation{
+  padding: 30px 45px; 
+  }
+  .container-consultation{
+    display: flex;
+    width: 100%;
+    background-color: #F7F7F7 ;
+  }
+  .column-consultation{flex: 1;
+padding: 0 45px ;}
+
+  .button-consultation-email {padding: 20px 32px;}
+  .button-consultation-contact{ padding: 20px 32px; white-space: nowrap;}
   @media (max-width: 900px) {
     /* Adjust styles for smaller screens */
     .rectangle {

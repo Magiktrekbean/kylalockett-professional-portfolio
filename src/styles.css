@@ -24,6 +24,9 @@ font-family: var(--heading-font-family);
   body {
     max-width: fit-content;
   }
+  .about body{
+    max-width: fit-content;
+  }
   .hero
 {font-family: var(--heading-font-family); 
  display: block;
@@ -190,6 +193,8 @@ padding: 0 45px ;}
 
   .button-consultation-email {padding: 20px 32px;}
   .button-consultation-contact{ padding: 20px 32px; white-space: nowrap;}
+
+.about-container {width: 100%;}
   @media (max-width: 900px) {
     /* Adjust styles for smaller screens */
     .rectangle {

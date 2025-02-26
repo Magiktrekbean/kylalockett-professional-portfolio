@@ -21,6 +21,7 @@ font-family: var(--heading-font-family);
     font-size: 20px;
     line-height: 1.5;
   }
+  .navbar-nav .nav-link.active{color:#c1c1c1!important;}
   body {
   width: 100%;
   }

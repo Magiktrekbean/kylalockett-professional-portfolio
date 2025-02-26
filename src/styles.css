@@ -170,6 +170,11 @@ footer{color: var(--secondary-font-color);}
   background-position: center;
 
 }
+footer .socials a{color: var(--secondary-font-color);
+padding: 8px;}
+footer .socials a:hover, .my-site:hover {color: #000000;}
+footer .socials .font{font-size: 24px;}
+
   @media (max-width: 900px) {
     /* Adjust styles for smaller screens */
     .rectangle {

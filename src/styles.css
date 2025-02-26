@@ -24,7 +24,8 @@ font-family: var(--heading-font-family);
   body {
   width: 100%;
   }
- 
+ .body-content-container{ margin: 0 40px;}
+ .paragraph-content-container{ margin: 20px 120px;}
   .content-container
 {font-family: var(--heading-font-family); 
  display: block;
@@ -132,7 +133,7 @@ line-height: 30px;}
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 24px;
     line-height: 30px;
   
     color: #828282;
@@ -143,28 +144,19 @@ line-height: 30px;}
   .client-image {
 width:100%;
   }
-  
+
   .button-consultation-email {padding: 10px 22px;}
   .button-consultation-contact{ padding: 10px 22px; white-space: nowrap;}
 
-.about-container {width: 100%;}
-.about-section{margin: 40px 45px;}
+
 .about-image{display: block;
 margin: 0 auto;}
-.about-heading{ font-size: 64px;
-  font-weight: bold;
-  line-height: 1.5;
-}
 
-.p-about, .p-about-card { margin: 30px 80px;
-  font-weight: 32px;
-  font-size: 20px;
-  line-height: 1.5;
-}
+
 .aboutme-images{margin: 70px 0;}
 .aboutme-kyla1-image, .aboutme-kyla2-image, .about-card {display: block;
 margin: 0 auto;}
-.about-card{height: 500px;}
+.about-card{height: 530px;}
 footer{color: var(--secondary-font-color);}
 
   @media (max-width: 900px) {
@@ -220,10 +212,12 @@ text-align: center;
 font-size: 35px;
 padding-top: 0;
 margin-top: 0;}
-
-.p-about{ margin: 30px 20px;
-font-size: 12px;
+h4{text-align: center;}
+p.content{ text-align: center;
+font-size: 18px;
 line-height: 2;}
+
+.paragraph-content-container{ margin: 10px 20px;}
 .about-card-seo{margin-bottom: 20px;}
 .about-card-mat{ margin-bottom: 20px;}
 .p-about-card{font-size: 20px;}

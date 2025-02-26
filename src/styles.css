@@ -154,11 +154,19 @@ margin: 0 auto;}
 
 
 .aboutme-images{margin: 70px 0;}
-.aboutme-kyla1-image, .aboutme-kyla2-image, .about-card {display: block;
-margin: 0 auto;}
+
 .about-card{height: 530px;}
 footer{color: var(--secondary-font-color);}
+.center-block {
+  display: block;
+  margin: 0 auto;
+}
+.bg-custom {
+  background-image: url('/images/background.jpeg');
+  background-size: cover; 
+  background-position: center;
 
+}
   @media (max-width: 900px) {
     /* Adjust styles for smaller screens */
     .rectangle {

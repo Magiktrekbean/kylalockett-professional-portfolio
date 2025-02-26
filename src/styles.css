@@ -34,6 +34,7 @@ text-align:start;
 width: 100%
 
 }
+
 .content-container h1 {
 
     font-weight: bold;
@@ -110,7 +111,7 @@ width: 100%
   .card-text{
     color: var(--secondary-font-color)
   }
-  p.content {font-size: 20px;
+  p.content, button.content {font-size: 20px;
 line-height: 30px;}
 
 
@@ -126,6 +127,7 @@ line-height: 30px;}
     color: #000000;
   
   }
+  h4.content{ font-size: 32px;}
   
   p {
     /* Body text for whatever you'd like to expand on the main point. */
@@ -140,7 +142,7 @@ line-height: 30px;}
  margin-bottom: 30px;
  font-size: 24px;
   }
-  
+  .sub-paragraph{font-size: 19px;}
   .client-image {
 width:100%;
   }
@@ -211,10 +213,15 @@ text-align: center;}
   }
   @media (max-width:576px) {
 
-    h3.media { margin-top: 0!important;
+ .content-container{margin: 0!important;
+padding: 0 0 30px 0!important;}
+h1{font-size: 48px!important;}
+    h3.media { 
 font-size: 35px;
 text-align: center;
 }
+img.picture {padding-top: 0!important;}
+img.rectangle{margin-bottom: 50px;}
 
 .content-container h3{ text-align: center;
 font-size: 35px;
@@ -230,5 +237,9 @@ line-height: 2;}
 .about-card-mat{ margin-bottom: 20px;}
 .p-about-card{font-size: 20px;}
 .about-heading{font-size: 40px;}
+    .form-media{ width: 100%!important;
+ }
+ .form-media-first{margin-bottom: 15px;}
+
     
   }
